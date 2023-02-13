@@ -1,0 +1,36 @@
+.text{
+    font-size: 24px;
+}
+.logo{
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    line-height: 112.5%;
+    font-weight: 700;
+    a{
+      color: #62D0DF;
+    }
+}
+.button {
+    font-size: 16px;
+    line-height: 145%;
+    background: #F9B640;
+    min-height: 50px;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    transition: all 0.5s ease 0s;
+    &:hover{
+      background-color: #49a3af;
+    }
+}
+.title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 142%;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+}
